@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 
-const NavBar = () => {
+const Navbar = () => {
     const [isOpen , setIsOpen] = useState(false);
     return (
         <div className='bg-black  h-16 w-full flex pr-4 md:pr-12 pl-4 md:pl-12 items-center justify-between'>
@@ -29,7 +29,7 @@ const NavBar = () => {
     );
 }
 
-export default NavBar;
+export default Navbar;
 
 
 // import {
