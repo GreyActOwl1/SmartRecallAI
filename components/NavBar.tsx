@@ -8,11 +8,11 @@ const NavBar = () => {
     return (
         <div className='bg-black  h-16 w-full flex pr-4 md:pr-12 pl-4 md:pl-12 items-center justify-between'>
             {/* Logo Text*/}
-            <Link href=""><p className='text-gray-300 text-xs whitespace-nowrap md:text-sm'> Powered by Alfred AI</p></Link>
+            <Link href="/"><p className='text-gray-300 text-xs whitespace-nowrap md:text-sm'> Powered by Alfred AI</p></Link>
             {/*Navigation Options*/}
             <div className='text-gray-300 text-sm  gap-x-4 hidden md:flex'>
             <Link href="/about" className='hover:text-white'>About us</Link>
-            <Link href="/create" className='hover:text-white'>Create</Link>
+            <Link href="/cards" className='hover:text-white'>Create</Link>
             </div>
 
 {/*Mobile Screen Navigation Options */}
