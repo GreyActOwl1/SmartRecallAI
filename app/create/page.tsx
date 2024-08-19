@@ -13,7 +13,7 @@ const Create = () => {
                )) 
             }
             </div>
-        {/* Form for user Prompt Handling*/}
+        {/* Generate FlashCard Button Functionality*/}
         <Modal/>
             {/* <form className="mt-16 w-[90%] md:max-w-2xl lg:max-w-3xl mx-auto h-12 rounded-lg border border-white flex justify-between">
             <input type="text" placeholder='Create flashcards about Pakistan' className=" md:tracking-wider h-full outline-none w-[80%] md:w-[85%] ml-4 bg-transparent text-gray-300 text-sm md:text-md"/>
