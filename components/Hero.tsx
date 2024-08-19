@@ -16,7 +16,7 @@ const Hero = () => {
                 
                 {/* Buttons */}
                 <div className='flex ml-2 justify-center gap-x-4 md:gap-x-8 pt-4'>
-<Link href=""><button className='w-32 h-10 bg-transparent flex justify-center items-center text-xs hover:font-semibold duration-200 transition-all hover:bg-white hover:text-black text-gray-300 border border-white rounded-lg'>See Pricing</button></Link>
+<Link href="/pricing"><button className='w-32 h-10 bg-transparent flex justify-center items-center text-xs hover:font-semibold duration-200 transition-all hover:bg-white hover:text-black text-gray-300 border border-white rounded-lg'>See Pricing</button></Link>
 <Link href="/create"><button className='w-32 h-10 bg-white flex justify-center items-center text-xs hover:bg-transparent hover:font-light hover:text-gray-300 duration-200 transition-all text-black font-semibold border border-white rounded-lg'>Create</button></Link>
                 </div>
                 </div>
