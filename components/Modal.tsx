@@ -10,7 +10,7 @@ import {
 import { ReactNode, useState } from "react";
 import FlashCards from "./FlashCards";
 
-export function Modal() {
+function Modal() {
   const [flashcardTitle, setFlashCardTitle] = useState("");
   const [flashcardText, setFlashCardText] = useState("");
   const [selectedColor, setSelectedColor] = useState("");
